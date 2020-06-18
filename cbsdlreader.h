@@ -38,7 +38,10 @@ public:
 	void  ProcessConstant(const std::string& temp);//处理  constant 关键字
 	void  ProcessAttribute(std::string temp);//处理attribute关键字
 	void  view_BSDL();
-	std::vector<std::vector<std::string>>  Get_data(const std::vector<std::vector<std::string>>& temp);
+	std::vector<std::vector<std::string>> Get_portdata();
+	std::vector<std::vector<std::string>> Get_constantdata();
+	std::vector<std::vector<std::string>> Get_BRdata();
+	std::vector<std::string> Get_Enddata();
 	virtual ~CBsdlReader() = default;
 
 };

@@ -128,13 +128,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\changeneversay\source\repos\Project1\connect_database.cpp" />
     <ClCompile Include="cbsdlreader.cpp" />
+    <ClCompile Include="connect_database.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReadCadenceProtelNetList.cpp" />
+    <ClCompile Include="ReadNetList.cpp" />
+    <ClCompile Include="ReadNetListContext.cpp" />
+    <ClCompile Include="ReadProtelNetList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\changeneversay\source\repos\Project1\connect_database.h" />
     <ClInclude Include="cbsdlreader.h" />
+    <ClInclude Include="connect_database.h" />
+    <ClInclude Include="ReadCadenceProtelNetList.h" />
+    <ClInclude Include="ReadNetList.h" />
+    <ClInclude Include="ReadNetListContext.h" />
+    <ClInclude Include="ReadProtelNetList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

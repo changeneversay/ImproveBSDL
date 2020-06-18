@@ -21,7 +21,19 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\changeneversay\source\repos\Project1\connect_database.cpp">
+    <ClCompile Include="connect_database.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadCadenceProtelNetList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadNetList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadNetListContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProtelNetList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +41,19 @@
     <ClInclude Include="cbsdlreader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\changeneversay\source\repos\Project1\connect_database.h">
+    <ClInclude Include="connect_database.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadCadenceProtelNetList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadNetList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadNetListContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadProtelNetList.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
